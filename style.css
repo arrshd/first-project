@@ -1,0 +1,19 @@
+.menu {
+    position: fixed;
+  }
+  
+  .menu__link:hover {
+    color:#ff6666;
+  }
+  
+  .menu__picture {
+    width: 600px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: none;
+  }
+  
+  .menu:hover .menu__picture {
+    display: block;
+  }
