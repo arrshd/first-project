@@ -1,19 +1,37 @@
 .menu {
-    position: fixed;
-  }
+  position: fixed;
+}
   
-  .menu__link:hover {
-    color:#ff6666;
-  }
-  
-  .menu__picture {
-    width: 600px;
-    position: absolute;
-    top: 40px;
-    left: 40px;
-    display: none;
-  }
-  
-  .menu:hover .menu__picture {
-    display: block;
-  }
+.menu__link:hover {
+  color:#ff6666;
+}
+
+.menu_asian_girl {
+  top: 40px;
+  left: 40px;
+}
+
+.menu_european_girl {
+  top: 40px;
+  right: 40px;
+}
+
+.menu__picture {
+  width: 600px;
+  position: absolute;
+  display: none;
+}
+
+.menu__picture_asian_girl {
+  top: 40px;
+  left: 40px;
+}
+
+.menu__picture_european_girl {
+  top: 40px;
+  right: 40px;
+}
+ 
+.menu:hover .menu__picture {
+  display: block;
+}
